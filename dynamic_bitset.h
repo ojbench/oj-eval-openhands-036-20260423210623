@@ -9,6 +9,8 @@
 #include <algorithm>
 #include <string>
 
+namespace sjtu {
+
 struct dynamic_bitset {
     std::vector<uint64_t> bits;
     std::size_t n_bits = 0;
@@ -266,5 +268,7 @@ struct dynamic_bitset {
         }
     }
 };
+
+} // namespace sjtu
 
 #endif

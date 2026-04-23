@@ -5,6 +5,8 @@
 #include <iostream>
 #include <string>
 
+using namespace sjtu;
+
 void test_basic() {
     dynamic_bitset db(10);
     assert(db.size() == 10);
